@@ -1,0 +1,33 @@
+{
+	"required": true,
+	"package": "ruipokoim.neonclient.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MinecraftClientMixin",
+		"ClientPlayNetworkHandlerMixin",
+		"WorldChunkMixin",
+		"KeyboardMixin",
+		"ChatHudMixin",
+		"MouseMixin",
+		"ClientPlayerInteractionManagerMixin",
+		"HandledScreenAccessor",
+		"GameRendererMixin",
+		"ShaderLoaderMixin",
+		"ChunkAccessor",
+		"ClientChunkManagerAccessor",
+		"ClientChunkMapAccessor",
+		"KeyboardInputMixin",
+		"LivingEntityAccessor",
+		"StatusEffectInstanceAccessor",
+		"LightmapTextureManagerMixin",
+		"WorldRendererMixin",
+		"RenderSystemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	},
+	"refmap": "neon-client-refmap.json"
+}

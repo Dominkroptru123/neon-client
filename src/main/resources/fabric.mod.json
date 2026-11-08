@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "neon-client",
+	"version": "${version}",
+	"name": "Neon Client",
+	"description": "Neon Utility Mod",
+	"authors": [
+		"RuipokoimVN"
+	],
+	"contact": {
+		"homepage": "https://github.com/Dominkroptru123",
+		"sources": "https://github.com/Dominkroptru123"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/neon-client/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ruipokoim.neonclient.NeonMain"
+		]
+	},
+	"mixins": [
+		"neon-client.mixins.json"
+	],
+	"accessWidener": "neon-client.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
